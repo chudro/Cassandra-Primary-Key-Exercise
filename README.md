@@ -1,9 +1,7 @@
 # Cassandra-Primary-Key-Exercise
 Check out this short exercise to understand how Cassandra  primary key definitions enable various query capabilities.
 
-####Cassandra Primary Key Exercise
-
-Since Cassamdra use cases are almost always focused on performance, it's a huge benefit to understand how certain PK definitions, query capabilities, and query performance all related to each other.
+Since Cassandra use cases are almost always focused on performance, it's a huge benefit to understand how certain Primary Key (PK) definitions, query capabilities, and performance related.
 
 **Here's how to do the exercise**
 
@@ -18,7 +16,7 @@ Have fun!
 ####Cassandra Data Model Pro-Tips
 
 Here are a few Cassandra data modeling pro-tips and principles to stay out of trouble and get you moving the right direction:
-- **Primary Keys:** Know how they work. Doing this exercise is a great start.
+- **Primary Keys:** Know what a partition key is. Know what a clustering key is. Know how they work for storing the data and for allowing query funcitonality. Doing this exercise is a great start.
 
 - **Secondary Indexes:** If you're  tempted to use a secondary index in Cassandra, don't. Instead, create a new table with a PK definition that will meet your query needs. Why? It has to do with the fact that Cassandra is a distributed system. In Cassandra, denormalization is fast and scalable. Secondary indexes aren't as much.
 
