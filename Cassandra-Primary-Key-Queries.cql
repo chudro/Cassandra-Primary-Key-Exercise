@@ -1,4 +1,4 @@
-SELECT * FROM sentiment WHERE dt = ‘20160102’;
-SELECT * FROM sentiment WHERE ch = ’facebook’ AND dt = ‘20160102’;
-SELECT * FROM sentiment WHERE ch = ’facebook’ and dt > ‘20160101’;
-SELECT * FROM sentiment WHERE ch = ’facebook’ AND cu = 2 AND dt >= ‘20160102’ AND dt <= ‘20160103’;
+select * from sentiment where dt = ‘20160102’;
+select * from sentiment where ch = ’facebook’ and dt = ‘20160102’;
+select * from sentiment where ch = ’facebook’ and dt > ‘20160101’;
+select * from sentiment where ch = ’facebook’ and cu = 'red bull' and dt >= ‘20160102’ and dt <= ‘20160103’;
