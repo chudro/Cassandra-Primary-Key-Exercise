@@ -1,7 +1,7 @@
 # Cassandra-Primary-Key-Exercise
 Check out this short exercise to understand how Cassandra  primary key definitions enable various query capabilities.
 
-Since Cassandra use cases are almost always focused on performance, it's a huge benefit to understand how Primary Key (PK) definition, query capabilities, and performance are related.
+Since Cassandra use cases are typically focused on performance and up-time, it's critical to understand how Primary Key (PK) definition, query capabilities, and performance are related.
 
 **Here's how to do the exercise**
 
