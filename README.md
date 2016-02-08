@@ -24,8 +24,8 @@ Here are a few Cassandra data modeling pro-tips and principles to stay out of tr
 
 - **Joins:** Cassandra doesn't support joins. How do you create M:1 and M:M relations? Easy... denormalize your data model. Think in materialized views. Denormalization is often a no-no in relational systems. To get 100% up-time, massive scale/throughput, and speed that Cassandra delivers, it's the right way to go.
 
-- **Allow Filtering:** If you're tempted to use Allow Filtering in production, see the advice for Secondary Indexes, above.
+- **Allow Filtering:** If you're tempted to use Allow Filtering in production, see the advice for Secondary Indexes above.
 
 - **Batches:** Batches solve a different problem in Cassandra than they do in relational databases. Use them appropriately or not at all.
 
-Feel free to reach out if you have any Cassandra data modeling questions. The DataStax documentation is also a great resource.
+Feel free to reach out if you have any Cassandra data modeling questions. The [DataStax documentation](http://docs.datastax.com/) is also a great resource.
