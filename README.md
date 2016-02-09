@@ -11,7 +11,7 @@ Since Cassandra use cases are typically focused on performance and up-time, it's
 
 3) Extra Credit: What would you do if you needed to query all messages with sentiment = 'positive'?
 
-4) Challenge Question: In the real world, how many tweets would you guess occur per day? As of this writing, Twitter generates ~500M tweets/day [according to these guys](http://www.internetlivestats.com/twitter-statistics/). Let's say we need to run a query that capture all tweets over a specified range of time. Given our data model scenario, we simply data model a primary key value of (ch, dt) to capture all tweets in a single Cassandra row sorted in order of time, right? Easy! But, alas, the Cassandra logical limit of single row size (2B columns in C* v2.1) would fill up after about 4 days. Ack! Our primary key won't work. What would we do to solve our query?
+4) Challenge Question: In the real world, how many tweets would you guess occur per day? As of this writing, Twitter generates ~500M tweets/day [according to these guys](http://www.internetlivestats.com/twitter-statistics/). Let's say we need to run a query that captures all tweets over a specified range of time. Given our data model scenario, we simply data model a primary key value of (ch, dt) to capture all tweets in a single Cassandra row sorted in order of time, right? Easy! But, alas, the Cassandra logical limit of single row size (2B columns in C* v2.1) would fill up after about 4 days. Ack! Our primary key won't work. What would we do to solve our query?
 
 Have fun!
 
