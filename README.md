@@ -7,7 +7,7 @@ Since Cassandra use cases are typically focused on performance and up-time, it's
 
 1) Use the [CQL scripts](https://github.com/RichReffner/Cassandra-Primary-Key-Exercise/blob/rich-mods-1/Cassandra-Primary-Key-Tables-Data.cql) to create tables and populate data. You'll notice each table is exactly the same except for the primary key definition.
 
-2) Try the [queries](https://github.com/RichReffner/Cassandra-Primary-Key-Exercise/blob/master/Cassandra-Primary-Key-Queries.cql) against the tables. You'll notice that some of the queries work against some of the tables, but not all. Why?
+2) Look at these [queries](https://github.com/RichReffner/Cassandra-Primary-Key-Exercise/blob/master/Cassandra-Primary-Key-Queries.cql). Copy/paste/run the group of queries one table at a time. In other words, run all of the queries for sentiment1 at the same time. Check out Cassandra's response. Then run all queries for sentiment2 at the same time. You'll notice that some of the queries work against some of the tables, but not all. Why?
 
 3) Extra Credit: What would you do if you needed to query all messages with sentiment = 'positive'?
 
