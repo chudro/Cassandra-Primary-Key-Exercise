@@ -1,6 +1,6 @@
-create keyspace if not exists primary_keys_ks with replication = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };
+create keyspace if not exists retail_ks with replication = { 'class' : 'SimpleStrategy', 'replication_factor' : 3 };
 
-use primary_keys_ks;
+use retail_ks;
 
 create table sentiment1 (
 body text,         // social message body text
